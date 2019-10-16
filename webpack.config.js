@@ -38,7 +38,11 @@ module.exports = {
           'stylus-loader',
         ],
       },
+
     ],
+  },
+  devServer: {
+    historyApiFallback: true,
   },
   plugins: [
     new HtmlWebPackPlugin({
